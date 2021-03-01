@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Banner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h2 id="text">Heaven</h2>
+        <div class="clouds">
+            <img src="./Images/cloud1.png" alt="" style="--i:1;">
+            <img src="./Images/cloud2.png" alt="" style="--i:2;">
+            <img src="./Images/cloud3.png" alt="" style="--i:3;">
+            <img src="./Images/cloud4.png" alt="" style="--i:4;">
+            <img src="./Images/cloud5.png" alt="" style="--i:5;">
+            <img src="./Images/cloud1.png" alt="" style="--i:10;">
+            <img src="./Images/cloud2.png" alt="" style="--i:9;">
+            <img src="./Images/cloud3.png" alt="" style="--i:8;">
+            <img src="./Images/cloud4.png" alt="" style="--i:7;">
+            <img src="./Images/cloud5.png" alt="" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Realistic Cloud Banner Parallax Effects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a quaerat porro quisquam at vitae. Enim rem id nemo, qui nihil unde? Commodi atque veritatis eligendi facere, rerum autem nemo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum itaque maiores magni! Consequuntur tempora nisi ipsam voluptatum aliquam, illo ratione odit id tempore, ut nostrum sapiente facere eveniet deleniti praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, fuga maxime, amet repellat est pariatur perferendis labore dolorem molestiae consequatur quia dolorum expedita placeat aut aliquid magnam in perspiciatis recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perferendis maxime sed fugit expedita exercitationem, harum sapiente in beatae illo voluptatum! Optio explicabo odit temporibus saepe mollitia quis adipisci debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. At a ea sequi beatae consectetur adipisci vero id totam molestias, eaque nulla, rem dolores aperiam, deserunt consequuntur tenetur quo ad recusandae.</p>
+    </section>
+    <script>
+        let text = document.getElementById('text');
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px';
+        })
+    </script>
+</body>
+</html>
